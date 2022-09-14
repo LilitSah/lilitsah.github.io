@@ -1,0 +1,309 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+header{
+
+}
+.address>div>a{
+	text-decoration-style: none;
+	color:black;
+	}
+.address{
+	display:flex;
+	justify-content:space-between;
+    width:100%;
+	height:50px;
+	align-items: center;
+	margin:0 auto;
+	
+}
+.address>div>a{
+	text-decoration: none;
+}
+.address>div>a:hover{
+color: #b37700;
+}
+.menu{
+	display:flex;
+	
+	top:0;
+	z-index:10;
+	margin:0 auto;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#f9f2ec;
+    padding-left :30px;
+    padding-right: 30px;
+
+}
+.menu>.menu1>a{
+	list-style-type:none;
+    float:left;
+    padding:20px;
+    color:#604020;
+	text-decoration-style: none;
+}
+.menu>.menu1>a:hover{
+	background-color:#ecd9c6;
+	text-decoration: none;
+	color:#bf8040;
+
+}
+
+
+
+ .carousel-inner img {
+    width: 100%;
+    
+  }
+  button{
+  	width:200px;
+  	height:60px;
+  	color:#bf8040;
+  }
+  button:hover{
+  	background:#bf8040;
+  	color:white;
+  }
+  .carousel-caption>h3{
+  	font-size:50px;
+  }
+  .mij{
+  	height:60px;
+  	width:100%;
+  }
+  #about{
+	
+  	height:auto;
+  	margin:0 auto;
+  	display:flex;
+	float:left;
+  	padding:30px;
+  	justify-content: space-between;
+  	border-left:solid;
+  }
+  #about>div{
+  	width:50%;
+  	
+  	text-align:left;
+	padding-left:10px;
+    border-left:solid;
+    float:left;
+	  
+
+  }
+ 
+
+  #services{
+  	width:100%;
+  	background-color:#e6ccb3;
+  	margin:0 auto;
+  	display:flex;
+	padding:30px;
+  	justify-content: center;
+  	padding-top:50px;
+  	flex-wrap: wrap;
+  }
+  #services>.services-header{
+  	width:100%;
+  	height:200px;
+  	text-align:center;
+  	padding:50px;
+  }
+  #services>.services1,#services>.services2{
+  	width:33%;
+  	height:auto;
+  	border:solid;
+  	text-align:center;
+  	padding:20px;
+  }
+#services>.services2{
+	background:black;
+	color:#e6ccb3;
+}
+#services>.services1{
+	background:#ecd9c6;
+	
+}
+.testim{
+	width:100%;
+	height:550px;
+	background-image:url(../image/advbc6.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.itm{
+	
+	width:100%;
+	height:550px;
+	background:rgba(0,0,0,0.8);
+}
+.carustext{
+	
+	height:200px;
+	color:white;
+	text-align:center;
+	padding-top:130px;
+
+}
+.itm>img{
+	max-width:100px;
+	height:auto;
+}
+.respon{
+	width:100%;
+	display:none;
+	height:400px;
+	margin:0 auto;
+	background-image:url(../image/advbc4.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	padding:20px;
+    color: #86592d;
+    }
+    .jamanak{
+    	width:75%;
+    	height:200px;
+    	background: #663300;
+    	opacity: 0.8;
+    	display:flex;
+    	flex-wrap:wrap;
+    	margin:0 auto;
+    }
+    .jamanak>div{
+        width:25%;
+        height:200px;
+        border:solid;
+        font-size:100px;
+        text-align:center;
+        color:white;
+
+    }
+    .cucanish{
+     width:100%;
+	margin: 0 auto;
+	background:#e6ccb3;
+	padding:20px;
+	text-align:center;
+	color:#86592d;
+    }
+.qanak{
+	
+	display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;;
+
+}
+.qanak>div{
+	width:300px;
+    height:300px;
+	border-radius: 50%;
+	background:#f9f2ec;
+	opacity: 0.8;
+	font-size:100px;
+	align-items: center;
+}
+#contact{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+    padding:30px;
+}
+ol{
+	list-style: none;
+
+}
+ol>li{
+	text-decoration: none;
+	padding-top:20px;
+}
+.fa-facebook-f:hover{
+	color:#b37700;
+}
+.fa-instagram:hover{
+	color:#b37700;
+}
+footer{
+	background:#c79461;
+}
+.foot{
+	width:100%;
+	height:280px;
+	margin:0 auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+ol>li>a{
+	color:white;
+}
+ol>li>a:hover{
+	color:	 #dfbf9f;
+	text-decoration:none;
+}
+.foot>.contact-footer>ol>li>a{
+	color:white;
+}
+.foot>.contact-footer>ol>li>a:hover{
+	color: 	 #dfbf9f;
+}
+.foot>.soc-footer>i{
+	color:white;
+}
+.foot>.soc-footer>i:hover{
+	color:	 #dfbf9f;
+}
+
+@media only screen and (max-width:900px){
+	
+    .menu>.menu1>a{
+        width:100%;
+		
+    }
+	#about>div{
+		display:none
+		
+	}
+		#services>.services1,#services>.services2{
+			width:100%;
+			height:auto;
+		
+			
+		}
+		#services>.services-header{
+			width:100%;
+			height:200px;
+			text-align:center;
+			padding:0px;
+			
+
+		}
+		.carousel-caption>h3{
+			font-size:20px;
+		}
+		#services>.services-header>h1{
+			font-size: 35px;
+
+		}
+		.qanak{
+			display: none;
+		}
+		.cucanish{
+			display:none;
+			
+		}
+		.jamanak{
+			display: none;
+		}
+		.respon{
+			font-size:10px;
+		}
+		.respon>h1{
+			display:none;
+		}
+		.contact-footer{
+			display: none;
+		}
+	}
