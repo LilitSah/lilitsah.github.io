@@ -283,6 +283,9 @@ ol>li>a:hover{
 		.carousel-caption>h3{
 			font-size:20px;
 		}
+		#services>.services-header>p{
+			color:white;
+	}
 		#services>.services-header>h1{
 			font-size: 25px;
 
@@ -305,5 +308,14 @@ ol>li>a:hover{
 		}
 		.contact-footer{
 			display: none;
+		}
+	}
+		.menu-footer{
+			width:100%;
+			background-color: #c79461;
+			padding:30px;
+		}
+		.logo{
+			width:100%;
 		}
 	}
